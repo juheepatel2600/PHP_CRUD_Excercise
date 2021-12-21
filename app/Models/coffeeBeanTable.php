@@ -8,5 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 class coffeeBeanTable extends Model
 {
     use HasFactory;
-    protected $fillable = ['id', 'Name','Caffeine Level', 'Cost/lb','Bean Type', 'Roast','Grind','Country of Origin'];
+    protected $table = "coffeeBeanTable";
+    protected $primaryKey= "id";
+
+    protected $fillable = ['id', 'Name','Caffeine_Level', 'Cost/lb','Bean_Type', 'Roast','Grind','Country_of_Origin'];
 }

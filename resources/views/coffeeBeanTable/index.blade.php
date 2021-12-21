@@ -31,12 +31,12 @@
         <tr>
             <td>{{ $coffeeBeanTable->id}}</td>
             <td>{{ $coffeeBeanTable->Name }}</td>
-            <td>{{ $coffeeBeanTable->Caffeine Level}}</td>
+            <td>{{ $coffeeBeanTable->Caffeine_Level}}</td>
             <td>{{ $coffeeBeanTable->Cost/lb }}</td>
-            <td>{{ $coffeeBeanTable->Bean Type}}</td>
+            <td>{{ $coffeeBeanTable->Bean_Type}}</td>
             <td>{{ $coffeeBeanTable->Roast}}</td>
             <td>{{ $coffeeBeanTable->Grind}}</td>
-            <td>{{ $coffeeBeanTable->Country of Origin}}</td>
+            <td>{{ $coffeeBeanTable->Country_of_Origin}}</td>
             <td><form action="{{ route('coffeeBeanTable.destroy',$coffeeBeanTable->id) }}" method="POST">
             <a class="btn btn-info" href="{{ route('coffeeBeanTable.show',$coffeeBeanTable->id) }}">Show</a>
             <a class="btn btn-primary" href="{{ route('coffeeBeanTable.edit',$coffeeBeanTable->id) }}">Edit</a>

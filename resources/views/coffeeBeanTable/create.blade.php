@@ -35,7 +35,7 @@
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
                 <strong>Caffeine Level:</strong>
-                <input type="text"  name="Caffeine Level" class="form-control" placeholder="caffeine level">
+                <input type="text"  name="Caffeine_Level" class="form-control" placeholder="caffeine level">
             </div>
              <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
@@ -46,7 +46,7 @@
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
                     <strong>Bean Type:</strong>
-                    <input type="text" name="Bean Type" class="form-control" placeholder="bean Type">
+                    <input type="text" name="Bean_Type" class="form-control" placeholder="bean Type">
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12">
@@ -64,7 +64,7 @@
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
                 <strong>Country of Origin:</strong>
-                <input type="text" name="Country of Origin" class="form-control" placeholder="country of origin">
+                <input type="text" name="Country_of_Origin" class="form-control" placeholder="country of origin">
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 text-center">

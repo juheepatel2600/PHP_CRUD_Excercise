@@ -24,7 +24,7 @@
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong>Caffeine Level:</strong>
-                {{ $coffeeBeanTable->Caffeine Level }}
+                {{ $coffeeBeanTable->Caffeine_Level }}
             </div>
         </div>
             <div class="row text-center">
@@ -37,7 +37,7 @@
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong>Bean Type:</strong>
-                {{ $coffeeBeanTable->Bean Type}}
+                {{ $coffeeBeanTable->Bean_Type}}
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
@@ -56,7 +56,7 @@
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong>Country of Origin:</strong>
-                {{ $coffeeBeanTable->Country of Origin }}
+                {{ $coffeeBeanTable->Country_of_Origin }}
             </div>
         </div>
        

@@ -40,12 +40,12 @@ class CoffeeBeanTableController extends Controller
          $request->validate([
             'id' => 'required',
             'Name' => 'required',
-            'Caffeine Level' => 'required',
+            'Caffeine_Level' => 'required',
             'Cost/lb' => 'required',
-            'Bean Type' => 'required',
+            'Bean_Type' => 'required',
             'Roast' => 'required',
             'Grind' => 'required',
-            'Country of Origin' => 'required',
+            'Country_of_Origin' => 'required',
             
         ]);
 
@@ -87,12 +87,12 @@ class CoffeeBeanTableController extends Controller
          $request->validate([
            'id' => 'required',
             'Name' => 'required',
-            'Caffeine Level' => 'required',
+            'Caffeine_Level' => 'required',
             'Cost/lb' => 'required',
-            'Bean Type' => 'required',
+            'Bean_Type' => 'required',
             'Roast' => 'required',
             'Grind' => 'required',
-            'Country of Origin' => 'required',
+            'Country_of_Origin' => 'required',
         ]);
         $coffeeBeanTable->update($request->all());
         return redirect()->route('coffeeBeanTable.index')->with('success','Coffee Bean Table updated successfully');

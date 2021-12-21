@@ -36,7 +36,7 @@
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong>Caffeine Level:</strong>
-                <input type="text" name="Caffeine Level" value="{{ $coffeeBeanTable->Caffeine Level }}" class="form-control" placeholder="Caffeine Level">
+                <input type="text" name="Caffeine_Level" value="{{ $coffeeBeanTable->Caffeine_Level }}" class="form-control" placeholder="Caffeine Level">
             </div>
         </div>
             <div class="row">
@@ -49,7 +49,7 @@
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong>Bean Type:</strong>
-                <input type="text" name="Bean Type" value="{{ $coffeeBeanTable>Bean Type}" class="form-control" placeholder="Bean Type">
+                <input type="text" name="Bean_Type" value="{{ $coffeeBeanTable>Bean_Type}" class="form-control" placeholder="Bean Type">
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
@@ -67,7 +67,7 @@
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong>Roast:</strong>
-                <input type="text" name="Country of Origin" value="{{ $coffeeBeanTable->Country of Origin}}" class="form-control" placeholder="Country of Origin">
+                <input type="text" name="Country_of_Origin" value="{{ $coffeeBeanTable->Country_of_Origin}}" class="form-control" placeholder="Country of Origin">
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 text-center">
