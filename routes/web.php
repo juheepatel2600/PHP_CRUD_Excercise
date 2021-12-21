@@ -13,10 +13,8 @@ use App\Http\Controllers\CoffeeBeanTableController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
 
 
-Route::resource('coffee_bean_Table', CoffeeBeanTableController::class);
+Route::resource('coffeeBeanTable', CoffeeBeanTableController::class);
+

@@ -11,5 +11,5 @@ class coffeeBeanTable extends Model
     protected $table = "coffeeBeanTable";
     protected $primaryKey= "id";
 
-    protected $fillable = ['id', 'Name','Caffeine_Level', 'Cost/lb','Bean_Type', 'Roast','Grind','Country_of_Origin'];
+    protected $fillable = [ 'Name','Caffeine_Level', 'Cost/lb','Bean_Type', 'Roast','Grind','Country_of_Origin'];
 }

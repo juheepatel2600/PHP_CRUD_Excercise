@@ -14,7 +14,7 @@ class CreateCoffeeBeanTable extends Migration
     public function up()
     {
         Schema::create('coffeeBeanTable', function (Blueprint $table) {
-            $table->integer('id');
+            $table->id('id');
             $table->string('Name', 30);
             $table->enum('Caffeine_Level', ['decaf', 'low', 'medium', 'high'])->nullable();
             $table->double('Cost/lb');

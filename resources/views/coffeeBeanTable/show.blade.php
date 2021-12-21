@@ -30,8 +30,8 @@
             <div class="row text-center">
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
-                <strong>Cost/lb:</strong>
-                {{ $coffeeBeanTable->Cost/lb}}
+                <strong>Cost_lb:</strong>
+                {{ $coffeeBeanTable->Cost_lb}}
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">

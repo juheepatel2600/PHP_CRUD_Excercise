@@ -20,12 +20,7 @@
     <form action="{{ route('coffeeBeanTable.store') }}" method="POST">
     @csrf
     <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12">
-                <div class="form-group">
-                    <strong>ID:</strong>
-                    <input type="number" name="ID" class="form-control" placeholder="id">
-                </div>
-            </div>
+           
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
                     <strong>Name:</strong>
@@ -34,18 +29,18 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
-                <strong>Caffeine Level:</strong>
+                <strong>Caffeine_Level:</strong>
                 <input type="text"  name="Caffeine_Level" class="form-control" placeholder="caffeine level">
             </div>
              <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
-                    <strong>Cost/lb:</strong>
-                    <input type="number" name="Cost/lb" class="form-control" placeholder="cost/lb">
+                    <strong>Cost_lb:</strong>
+                    <input type="number" name="Cost_lb" class="form-control" placeholder="cost/lb">
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
-                    <strong>Bean Type:</strong>
+                    <strong>Bean_Type:</strong>
                     <input type="text" name="Bean_Type" class="form-control" placeholder="bean Type">
                 </div>
             </div>

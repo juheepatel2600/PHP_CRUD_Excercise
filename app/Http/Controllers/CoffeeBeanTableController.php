@@ -38,10 +38,10 @@ class CoffeeBeanTableController extends Controller
     {
 
          $request->validate([
-            'id' => 'required',
+            
             'Name' => 'required',
             'Caffeine_Level' => 'required',
-            'Cost/lb' => 'required',
+            'Cost_lb' => 'required',
             'Bean_Type' => 'required',
             'Roast' => 'required',
             'Grind' => 'required',
@@ -88,7 +88,7 @@ class CoffeeBeanTableController extends Controller
            'id' => 'required',
             'Name' => 'required',
             'Caffeine_Level' => 'required',
-            'Cost/lb' => 'required',
+            'Cost_lb' => 'required',
             'Bean_Type' => 'required',
             'Roast' => 'required',
             'Grind' => 'required',

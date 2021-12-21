@@ -32,7 +32,7 @@
             <td>{{ $coffeeBeanTable->id}}</td>
             <td>{{ $coffeeBeanTable->Name }}</td>
             <td>{{ $coffeeBeanTable->Caffeine_Level}}</td>
-            <td>{{ $coffeeBeanTable->Cost/lb }}</td>
+            <td>{{ $coffeeBeanTable->Cost_lb }}</td>
             <td>{{ $coffeeBeanTable->Bean_Type}}</td>
             <td>{{ $coffeeBeanTable->Roast}}</td>
             <td>{{ $coffeeBeanTable->Grind}}</td>
@@ -47,5 +47,5 @@
         </tr>
         @endforeach
     </table>
-{!! $coffeeBeanTable->links() !!}
+
 @endsection
