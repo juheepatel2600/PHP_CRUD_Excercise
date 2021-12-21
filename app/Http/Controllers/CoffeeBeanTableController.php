@@ -85,7 +85,7 @@ class CoffeeBeanTableController extends Controller
     public function update(Request $request, coffeeBeanTable $coffeeBeanTable)
     {
          $request->validate([
-           'id' => 'required',
+      
             'Name' => 'required',
             'Caffeine_Level' => 'required',
             'Cost_lb' => 'required',

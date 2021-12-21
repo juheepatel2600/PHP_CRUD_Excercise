@@ -35,7 +35,7 @@
              <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
                     <strong>Cost_lb:</strong>
-                    <input type="number" name="Cost_lb" class="form-control" placeholder="cost/lb">
+                    <input type="number" min="1" name="Cost_lb" class="form-control" placeholder="cost_lb">
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12">

@@ -16,11 +16,11 @@ class CreateCoffeeBeanTable extends Migration
         Schema::create('coffeeBeanTable', function (Blueprint $table) {
             $table->id('id');
             $table->string('Name', 30);
-            $table->enum('Caffeine_Level', ['decaf', 'low', 'medium', 'high'])->nullable();
-            $table->double('Cost/lb');
-            $table->string('Bean_Type');
+            $table->enum('Caffeine_Level', ['decaf', 'low', 'medium', 'high']);
+            $table->integer('Cost_lb')->default(0);
+            $table->string('Bean_Type', ['Arabica', 'Robusta', 'Liberca', 'Excelsa', 'Other']);
             $table->enum('Roast', ['dark', 'medium', 'light', 'french']);
-            $table->enum('Grind', ['whole-bean', 'fine', 'medium', 'coarse'])->nullable();
+            $table->enum('Grind', ['whole-bean', 'fine', 'medium', 'coarse']);
             $table->text('Country_of_Origin', 50);
             $table->timestamps();
         });

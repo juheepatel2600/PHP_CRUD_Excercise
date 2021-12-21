@@ -21,16 +21,11 @@
     @csrf
     @method('PUT')
     <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12">
-            <div class="form-group">
-                <strong>ID:</strong>
-                <input type="number" name="id" value="{{ $coffeeBeanTable->id}}" class="form-control" placeholder="id">
-            </div>
-        </div>
+
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong>Name:</strong>
-                <input type="text" name="Name" value="{{ $coffeeBeanTable>Name}}" class="form-control" placeholder="name">
+                <input type="text" name="Name" value="{{ $coffeeBeanTable->Name}}" class="form-control" placeholder="name">
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
@@ -43,13 +38,13 @@
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong>Cost_lb:</strong>
-                <input type="number" name="Cost_lb" value="{{ $coffeeBeanTable->Cost_lb}}" class="form-control" placeholder="Cost/lb">
+                <input type="text" name="Cost_lb" value="{{ $coffeeBeanTable->Cost_lb}}" class="form-control" placeholder="Cost/lb">
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong>Bean_Type:</strong>
-                <input type="text" name="Bean_Type" value="{{ $coffeeBeanTable>Bean_Type}" class="form-control" placeholder="Bean Type">
+                <input type="text" name="Bean_Type" value="{{ $coffeeBeanTable->Bean_Type}}" class="form-control" placeholder="Bean Type">
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
@@ -61,7 +56,7 @@
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong>Grind:</strong>
-                <input type="text" name="Grind" value="{{ $coffeeBeanTable->Grind}" class="form-control" placeholder="Grind">
+                <input type="text" name="Grind" value="{{ $coffeeBeanTable->Grind}}" class="form-control" placeholder="Grind">
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
@@ -70,7 +65,7 @@
                 <input type="text" name="Country_of_Origin" value="{{ $coffeeBeanTable->Country_of_Origin}}" class="form-control" placeholder="Country of Origin">
             </div>
         </div>
-    
+    </div>
         <div class="col-xs-12 col-sm-12 col-md-12 text-center">
             <a class="btn btn-primary" href="{{ route('coffeeBeanTable.index') }}"> Back</a>
             <button type="submit" class="btn btn-success">Update</button>
