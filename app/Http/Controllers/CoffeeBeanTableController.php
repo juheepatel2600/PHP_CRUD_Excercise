@@ -14,8 +14,8 @@ class CoffeeBeanTableController extends Controller
      */
     public function index()
     {
-        $coffeeBeanTable= coffeeBeanTable::latest()->paginate(10);
-        return view('coffeeBeanTable.index',compact('coffeeBeanTable'))->with('i', (request()->input('page', 1) - 1) * 5);
+        $coffeeBeanTable= coffeeBeanTable::paginate(6);
+        return view('coffeeBeanTable.index',compact('coffeeBeanTable'));
     }
 
     /**

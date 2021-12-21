@@ -18,3 +18,5 @@ use App\Http\Controllers\CoffeeBeanTableController;
 
 Route::resource('coffeeBeanTable', CoffeeBeanTableController::class);
 
+
+

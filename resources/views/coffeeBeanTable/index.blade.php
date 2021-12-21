@@ -1,15 +1,19 @@
 @extends('coffeeBeanTable.layout')
 @section('content')
-    <div class="row">
+<body>
+<div>
+   
         <div class="col-lg-12 margin-tb">
             <div class="pull-left text-center">
                
             </div>
+            <h1>Welcome to Coffee Beans Application!</h1>
             <div class="pull-right">
+            <br>
                 <a class="btn btn-success" href="{{ route('coffeeBeanTable.create') }}"> Create Coffee Bean Table</a>
             </div><br>
         </div>
-    </div>
+
     @if ($message = Session::get('success'))
     <div class="alert alert-success">
         <span>{{ $message }}</span>
@@ -27,19 +31,19 @@
             <th>Country of Origin</th>
             <th>Action</th>
         </tr>
-        @foreach ($coffeeBeanTable as $coffeeBeanTable)
+        @foreach ($coffeeBeanTable as $coffeeBeanTables)
         <tr>
-            <td>{{ $coffeeBeanTable->id}}</td>
-            <td>{{ $coffeeBeanTable->Name}}</td>
-            <td>{{ $coffeeBeanTable->Caffeine_Level}}</td>
-            <td>{{ $coffeeBeanTable->Cost_lb}}</td>
-            <td>{{ $coffeeBeanTable->Bean_Type}}</td>
-            <td>{{ $coffeeBeanTable->Roast}}</td>
-            <td>{{ $coffeeBeanTable->Grind}}</td>
-            <td>{{ $coffeeBeanTable->Country_of_Origin}}</td>
-            <td><form action="{{ route('coffeeBeanTable.destroy',$coffeeBeanTable->id) }}" method="POST">
-            <a class="btn btn-info" href="{{ route('coffeeBeanTable.show',$coffeeBeanTable->id) }}">Show</a>
-            <a class="btn btn-primary" href="{{ route('coffeeBeanTable.edit',$coffeeBeanTable->id) }}">Edit</a>
+            <td>{{ $coffeeBeanTables->id}}</td>
+            <td>{{ $coffeeBeanTables->Name}}</td>
+            <td>{{ $coffeeBeanTables->Caffeine_Level}}</td>
+            <td>{{ $coffeeBeanTables->Cost_lb}}</td>
+            <td>{{ $coffeeBeanTables->Bean_Type}}</td>
+            <td>{{ $coffeeBeanTables->Roast}}</td>
+            <td>{{ $coffeeBeanTables->Grind}}</td>
+            <td>{{ $coffeeBeanTables->Country_of_Origin}}</td>
+            <td><form action="{{ route('coffeeBeanTable.destroy',$coffeeBeanTables->id) }}" method="POST">
+            <a class="btn btn-info" href="{{ route('coffeeBeanTable.show',$coffeeBeanTables->id) }}">Show</a>
+            <a class="btn btn-primary" href="{{ route('coffeeBeanTable.edit',$coffeeBeanTables->id) }}">Edit</a>
             @csrf
             @method('DELETE')
             <button type="submit" onclick="return confirm('Do you really want to delete coffee Bean Table!')" class="btn btn-danger">Delete</button>
@@ -47,5 +51,12 @@
         </tr>
         @endforeach
     </table>
+
+        <div class="d-flex justify-content-center">
+            {{ $coffeeBeanTable->links('pagination::bootstrap-4') }}
+        </div>
+</div>
+
+</body>
 
 @endsection
