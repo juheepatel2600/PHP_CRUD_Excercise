@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\CoffeeBeanTableController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,6 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/demo', function () {
-    echo "Hello";
-});
+
+
+Route::resource('coffee_bean_Table', CoffeeBeanTableController::class);
