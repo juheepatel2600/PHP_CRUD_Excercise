@@ -5,6 +5,11 @@
       "taskLabel": "task-example-app",
       "appliesTo": "/",
       "type": "launch"
+    },
+    {
+      "taskLabel": "task-example-app",
+      "appliesTo": "/",
+      "type": "launch"
     }
   ]
 }
