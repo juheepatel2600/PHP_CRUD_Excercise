@@ -5,7 +5,7 @@
     <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
-                <h1>Create coffee Bean Table</h1>
+                <h1>Create Coffee Bean Table</h1>
             </div>
         </div>
     </div>
@@ -114,10 +114,12 @@
             <br>
         <br>
 <br>
+
         </div>
 
         
-        
+        <br>
+<br>
 
     </div>
     </form>

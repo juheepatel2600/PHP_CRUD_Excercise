@@ -52,3 +52,12 @@ h1 {
 .form-group {
     font-size: 20px;
 }
+
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+th, td {
+    background-color: #dbd6d6;
+}

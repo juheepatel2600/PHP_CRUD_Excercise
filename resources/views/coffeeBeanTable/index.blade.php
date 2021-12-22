@@ -20,7 +20,7 @@
             <br>
                 <a class="btn btn-success" href="{{ route('coffeeBeanTable.create') }}"> Create Coffee Bean Table</a>
             </div><br>
-    <table class="table table-bordered">
+    <table class="table">
         <tr>
             <th>ID</th>
             <th>Name</th>
