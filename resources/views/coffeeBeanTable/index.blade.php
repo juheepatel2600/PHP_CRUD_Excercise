@@ -8,10 +8,7 @@
                
             </div>
             <h1>Welcome to Coffee Beans Application!</h1>
-            <div class="pull-right">
-            <br>
-                <a class="btn btn-success" href="{{ route('coffeeBeanTable.create') }}"> Create Coffee Bean Table</a>
-            </div><br>
+           
         </div>
 
     @if ($message = Session::get('success'))
@@ -19,6 +16,10 @@
         <span>{{ $message }}</span>
     </div>
     @endif
+     <div class="pull-right">
+            <br>
+                <a class="btn btn-success" href="{{ route('coffeeBeanTable.create') }}"> Create Coffee Bean Table</a>
+            </div><br>
     <table class="table table-bordered">
         <tr>
             <th>ID</th>

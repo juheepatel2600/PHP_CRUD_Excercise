@@ -30,6 +30,25 @@
                 <input type="text" name="Name" value="{{ $coffeeBeanTable->Name}}" class="form-control" placeholder="name">
             </div>
         </div>
+
+         <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="form-group">
+                <strong>Caffeine Level:</strong>
+<select id="Caffeine Level" name="Caffeine Level"  class="form-control">
+<option value="">{{ $coffeeBeanTable->Caffeine_Level }}</option>
+  <option value="decaf">decaf</option>
+  <option value="low">low</option>
+  <option value="medium">medium</option>
+  <option value="high">high</option>
+</select>
+
+</div>
+</div>
+
+
+
+
+
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong>Caffeine Level:</strong>

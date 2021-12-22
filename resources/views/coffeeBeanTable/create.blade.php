@@ -37,6 +37,7 @@
             <div class="form-group">
                 <strong>Caffeine Level:</strong>
 <select id="Caffeine Level" name="Caffeine Level"  class="form-control">
+<option value="">--- Choose a Caffeine Level ---</option>
   <option value="decaf">decaf</option>
   <option value="low">low</option>
   <option value="medium">medium</option>
@@ -60,6 +61,7 @@
             <div class="form-group">
                 <strong>Bean Type:</strong>
 <select id="Bean Type" name="Bean Type"  class="form-control">
+<option value="">--- Choose a Bean Type ---</option>
   <option value="Arabica">Arabica</option>
   <option value="Robusta">Robusta</option>
   <option value="Liberca">Liberca</option>
@@ -76,6 +78,7 @@
             <div class="form-group">
                 <strong>Roast:</strong>
 <select id="Roast" name="Roast"  class="form-control">
+<option value="">--- Choose a Roast ---</option>
   <option value="dark">dark</option>
   <option value="medium">medium</option>
   <option value="light">light</option>
@@ -89,6 +92,7 @@
             <div class="form-group">
                 <strong>Grind:</strong>
 <select id="Grind" name="Grind"  class="form-control">
+<option value="">--- Choose a Grind ---</option>
   <option value=" whole-bean"> whole-bean</option>
   <option value="fine">fine</option>
   <option value="medium">medium</option>
