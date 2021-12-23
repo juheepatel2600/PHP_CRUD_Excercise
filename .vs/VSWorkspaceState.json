@@ -1,7 +1,16 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\app",
+    "\\app\\Http\\Controllers",
+    "\\database",
+    "\\database\\migrations",
+    "\\database\\seeders",
+    "\\resources",
+    "\\resources\\views",
+    "\\resources\\views\\coffeeBeanTable",
+    "\\tests\\Feature"
   ],
-  "SelectedNode": "\\config\\database.php",
+  "SelectedNode": "\\resources\\views\\coffeeBeanTable\\show.blade.php",
   "PreviewInSolutionExplorer": false
 }
